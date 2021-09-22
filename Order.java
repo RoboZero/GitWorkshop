@@ -15,9 +15,18 @@ class Order {
         System.out.println("You've added a chicken sandwich. yay");
     }
 
+
     public void addDrink(){
         totalCost += 2;
         items.add("Drink");
         System.out.println("");
     }
+
+    public void addSalad() {
+        totalCost +=6;
+        items.add("Salad");
+        System.out.println("You've added a salad.");
+    }
+
+
 }
